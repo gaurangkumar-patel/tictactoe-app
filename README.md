@@ -1,4 +1,4 @@
-🎮 React Tic-Tac-Toe
+🎮 React Tic-Tac-Toe [Play Here](https://tictactoe-app-theta.vercel.app)
 
 A simple Tic-Tac-Toe game built with React (Vite), Framer Motion for animations, and Lucide React for icons.  
 It supports 2 Players mode and vs Computer mode (basic AI).
@@ -74,7 +74,7 @@ Steps:
 6. Click Deploy 🎉
 
 After a few seconds, Vercel will give you a live URL like:
-   https://tictactoe-app.vercel.app
+   [https://tictactoe-app.vercel.app](https://tictactoe-app-theta.vercel.app/)
 
 ------------------------------------------------------------
 👨‍💻 Author
