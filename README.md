@@ -1,84 +1,147 @@
-🎮 React Tic-Tac-Toe [Play Here](https://tictactoe-app-theta.vercel.app)
+# 🎮 React Tic-Tac-Toe Game
 
-A simple Tic-Tac-Toe game built with React (Vite), Framer Motion for animations, and Lucide React for icons.  
-It supports 2 Players mode and vs Computer mode (basic AI).
+🔗 **Live Demo:** https://tictactoe-app-theta.vercel.app  
+🌐 **Portfolio:** https://gaurangkumar-patel.github.io/portfolio  
+💼 **LinkedIn:** https://www.linkedin.com/in/gaurangpatel2326  
 
-------------------------------------------------------------
-🚀 Features
-------------------------------------------------------------
-- Two modes: 2 Players or vs Computer (Easy AI)
-- Undo and Restart options
-- Winning line highlight
-- Styled with Tailwind CSS
-- Built with Vite for fast dev/build
+An interactive **Tic-Tac-Toe web application built with React** featuring **2 Players mode** and **Play vs Computer (AI)**.  
+This project demonstrates clean component-based architecture, state management using React Hooks, and production-ready deployment.
 
-------------------------------------------------------------
-📦 Installation & Setup
-------------------------------------------------------------
-1. Clone the repo
-   git clone https://github.com/gaurangkumar-patel/tictactoe-app.git
-   cd tictactoe-app
+---
 
-2. Install dependencies
-   npm install
+## 🧠 Project Overview (For Recruiters)
 
-3. Run locally
-   npm run dev
+This project showcases:
+- Strong fundamentals in **React & modern JavaScript**
+- Game logic implementation with **winner detection & AI**
+- Clean, readable, and reusable code structure
+- Focus on **UI/UX, animations, and performance**
+- End-to-end workflow: development → deployment
 
-   App will be available at: http://localhost:5173
+It is designed as a **portfolio-ready frontend project** suitable for entry to mid-level React / Frontend roles.
 
-------------------------------------------------------------
-🛠 Tech Stack
-------------------------------------------------------------
-- React + Vite
-- Framer Motion – animations
-- Lucide React – icons
-- Tailwind CSS – styling
+---
 
-------------------------------------------------------------
-📂 Project Structure
-------------------------------------------------------------
+## 🎥 Demo Preview
+
+
+![Tic-Tac-Toe Demo](./demo.gif)
+
+---
+
+## 🚀 Features
+
+* 🎮 **Game Modes**
+
+  * 👥 2 Players mode
+  * 🤖 Play vs Computer (Easy AI)
+* 🏆 Automatic winner detection
+* ✨ Winning line highlight
+* 🔄 Undo last move
+* ♻️ Restart game anytime
+* 🎨 Clean, modern UI with animations
+* ⚡ Fast build and optimized performance using Vite
+* 🌐 Deployed on Vercel
+
+---
+
+## 🕹 How to Play
+
+1. Select **2 Players** or **vs Computer** mode.
+2. Click on any square to place your mark (X or O).
+3. First player to align **3 marks in a row** wins.
+4. Use **Undo** to revert the last move.
+5. Click **Restart** to reset the game.
+
+---
+
+## 🛠 Tech Stack
+
+* **React** (Hooks-based architecture)
+* **Vite** – fast development & build tool
+* **JavaScript (ES6+)**
+* **Tailwind CSS** – responsive styling
+* **Framer Motion** – UI animations
+* **Lucide React** – icons
+* **Vercel** – deployment
+
+---
+
+## 📂 Project Structure
+
+```
 tictactoe-app/
 ├── src/
-│   ├── App.jsx          # Main entry
-│   ├── TicTacToe.jsx    # Game component (class-based)
+│   ├── App.jsx          # Application entry point
+│   ├── TicTacToe.jsx    # Core game logic & UI
 │   ├── index.css        # Tailwind styles
 │   └── main.jsx         # React DOM entry
 ├── index.html
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
-└── README.txt
+└── README.md
+```
 
-------------------------------------------------------------
-🎮 How to Play
-------------------------------------------------------------
-1. Select "2 Players" or "vs Computer" mode.
-2. Click a square to place your mark (X or O).
-3. First player to align 3 marks wins.
-4. Use Undo to go back one move.
-5. Click Refresh to start a new game.
+---
 
-------------------------------------------------------------
-🌐 Deployment on Vercel
-------------------------------------------------------------
-Steps:
-1. Push your code to GitHub.
-2. Go to https://vercel.com/ and log in.
-3. Click "New Project" → "Import Git Repository".
-4. Select your tictactoe-app repo.
-5. Vercel auto-detects Vite + React and pre-fills settings:
-   - Framework: Vite
-   - Build Command: npm run build
-   - Output Directory: dist
-6. Click Deploy 🎉
+## 📦 Installation & Local Setup
 
-After a few seconds, Vercel will give you a live URL like:
-   [https://tictactoe-app.vercel.app](https://tictactoe-app-theta.vercel.app/)
+```
+# Clone the repository
+git clone https://github.com/gaurangkumar-patel/tictactoe-app.git
 
-------------------------------------------------------------
-👨‍💻 Author
-------------------------------------------------------------
-Gaurangkumar Patel
-MSc in IT • Full-stack developer • React | PHP (Laravel/Yii2) | MySQL
-GitHub: https://github.com/gaurangkumar-patel
+# Navigate to project directory
+cd tictactoe-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+```
+
+📍 Application will run at:
+`http://localhost:5173`
+
+---
+
+## 🌐 Deployment
+
+The application is deployed using **Vercel**.
+
+**Build details:**
+
+* Framework: Vite
+* Build Command: `npm run build`
+* Output Directory: `dist`
+
+🔗 Live URL:
+[https://tictactoe-app-theta.vercel.app](https://tictactoe-app-theta.vercel.app)
+
+---
+
+## 📈 Future Enhancements
+
+* Smarter AI using Minimax algorithm
+* Difficulty levels (Easy / Medium / Hard)
+* Scoreboard & match history
+* Sound effects & animations
+* Mobile-first optimizations
+
+---
+
+## 👨‍💻 Author
+
+**Gaurangkumar Patel**
+MSc in IT | Full-Stack Developer
+
+**Skills:**
+React, JavaScript, PHP (Laravel, Yii2), MySQL, REST APIs, AWS basics
+
+🔗 Portfolio: [https://gaurangkumar-patel.github.io/portfolio](https://gaurangkumar-patel.github.io/portfolio)
+💼 LinkedIn: [https://www.linkedin.com/in/gaurangpatel2326](https://www.linkedin.com/in/gaurangpatel2326)
+🐙 GitHub: [https://github.com/gaurangkumar-patel](https://github.com/gaurangkumar-patel)
+
+---
