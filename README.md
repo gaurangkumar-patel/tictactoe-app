@@ -1,4 +1,10 @@
 # 🎮 React Tic-Tac-Toe Game
+![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styling-38bdf8?logo=tailwindcss)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)
+![Status](https://img.shields.io/badge/Status-Live-success)
 
 🔗 **Live Demo:** https://tictactoe-app-theta.vercel.app  
 🌐 **Portfolio:** https://gaurangkumar-patel.github.io/portfolio  
